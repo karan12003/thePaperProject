@@ -215,7 +215,7 @@ tl1.from('.main', {
             trigger: ".page6",
             start: "top 115%",
             end: 'bottom 113%',
-            markers:true,
+            
             scrub:true
         },
         opacity: 0,
@@ -227,7 +227,7 @@ tl1.from('.main', {
             trigger: ".page6",
             start: "top 115%",
             end: 'bottom 113%',
-            markers:true,
+            
             scrub:true
         },
         opacity: 0,
