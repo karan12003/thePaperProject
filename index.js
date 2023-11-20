@@ -31,8 +31,8 @@ tl1.from('.main', {
     .from(".elems2", {
         scrollTrigger: {
             trigger: ".elems2",
-            start: "top 75%",
-            end: "bottom 70%",
+            start: "top 410vh",
+            end: "bottom 250vh",
             scrub: true,
         },
         opacity: 1,
