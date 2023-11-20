@@ -31,8 +31,8 @@ tl1.from('.main', {
     .from(".elems2", {
         scrollTrigger: {
             trigger: ".elems2",
-            start: "top 60%",
-            end: "bottom 30%",
+            start: "top 75%",
+            end: "bottom 70%",markers:true,
             scrub: true,
         },
         opacity: 1,
@@ -43,8 +43,9 @@ tl1.from('.main', {
     .from(".elems3-1-1", {
         scrollTrigger: {
             trigger: ".elems3-1-1",
-            start: "top 90%",
+            start: "top 93%",
             end: "bottom 30%",
+            
             scrub: true
         },
         opacity: 0,
@@ -54,7 +55,7 @@ tl1.from('.main', {
     .from(".img-3", {
         scrollTrigger: {
             trigger: ".elems3-1-1",
-            start: "top 90%",
+            start: "top 93%",
             end: "bottom 30%",
             scrub: true
         },
@@ -65,7 +66,7 @@ tl1.from('.main', {
     .from(".elems3-1-3", {
         scrollTrigger: {
             trigger: ".elems3-2-2",
-            start: "top 90%",
+            start: "top 93%",
             end: "bottom 40%",
             scrub: true
         },
@@ -76,7 +77,7 @@ tl1.from('.main', {
     .from(".img-4", {
         scrollTrigger: {
             trigger: ".elems3-1-1",
-            start: "top 90%",
+            start: "top 93%",
             end: "bottom 50%",
             scrub: true
         },
@@ -87,7 +88,7 @@ tl1.from('.main', {
     .from(".elems3-2-2", {
         scrollTrigger: {
             trigger: ".elems3-2-2",
-            start: "top 90%",
+            start: "top 93%",
             end: "bottom 60%",
             scrub: true
         },
