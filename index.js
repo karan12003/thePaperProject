@@ -30,7 +30,6 @@ tl1.from('.main', {
     })
     .from(".elems2", {
         scrollTrigger: {
-            scroller: 'body',
             trigger: ".elems2",
             start: "top 60%",
             end: "bottom 30%",
@@ -39,11 +38,10 @@ tl1.from('.main', {
         opacity: 1,
         scale: 0.3,
         duration: 3,
-        y: '-100',
+        y: '-10vw',
     })
     .from(".elems3-1-1", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems3-1-1",
             start: "top 90%",
             end: "bottom 30%",
@@ -55,7 +53,6 @@ tl1.from('.main', {
     })
     .from(".img-3", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems3-1-1",
             start: "top 90%",
             end: "bottom 30%",
@@ -67,7 +64,6 @@ tl1.from('.main', {
     })
     .from(".elems3-1-3", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems3-2-2",
             start: "top 90%",
             end: "bottom 40%",
@@ -79,7 +75,6 @@ tl1.from('.main', {
     })
     .from(".img-4", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems3-1-1",
             start: "top 90%",
             end: "bottom 50%",
@@ -91,7 +86,6 @@ tl1.from('.main', {
     })
     .from(".elems3-2-2", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems3-2-2",
             start: "top 90%",
             end: "bottom 60%",
@@ -103,7 +97,6 @@ tl1.from('.main', {
     })
     .from(".website", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".website",
             start: "top 100%",
             end: "bottom 70%",
@@ -116,7 +109,6 @@ tl1.from('.main', {
     })
     .from(".stamp", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".website",
             start: "top 100%",
             end: "bottom 70%",
@@ -128,7 +120,6 @@ tl1.from('.main', {
     })
     .from(".elems4-1-1", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems4-1-1",
             start: "top 90%",
             end: "bottom 50%",
@@ -141,7 +132,6 @@ tl1.from('.main', {
     })
     .from(".elems4-1-2", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems4-1-1",
             start: "top 90%",
             end: "bottom 50%",
@@ -154,7 +144,6 @@ tl1.from('.main', {
     })
     .from(".elems4-2>h1,h2", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems4-1-1",
             start: "top 90%",
             end: "bottom 50%",
@@ -166,7 +155,6 @@ tl1.from('.main', {
     })
     .from(".elems4-1-3", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems4-1-3",
             start: "top 90%",
             end: "bottom 70%",
@@ -178,7 +166,6 @@ tl1.from('.main', {
     })
     .from(".elems4-2>span>p", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".elems4-1-3",
             start: "top 90%",
             end: "bottom 70%",
@@ -190,7 +177,6 @@ tl1.from('.main', {
     })
     .from(".wrk-btn", {
         scrollTrigger: {
-            scroller: "body",
             trigger: ".wrk-btn",
             start: "top 90%",
             end: "bottom 80%",
@@ -202,10 +188,10 @@ tl1.from('.main', {
     })
     .from(".page5>div>span", {
         scrollTrigger: {
-            scroller: 'body',
             trigger: ".page5",
-            start: "top 95%",
-            end: 'bottom 80%',
+            start: "top 102%",
+            end: 'bottom 94%',
+            
             scrub:true
         },
         opacity: 0,
@@ -214,10 +200,10 @@ tl1.from('.main', {
     })
     .from(".page5>div>p", {
         scrollTrigger: {
-            scroller: 'body',
             trigger: ".page5",
-            start: "top 95%",
-            end: 'bottom 80%',
+            start: "top 102%",
+            end: 'bottom 94%',
+            
             scrub:true
         },
         opacity: 0,
@@ -226,10 +212,10 @@ tl1.from('.main', {
     })
     .from(".page6-1", {
         scrollTrigger: {
-            scroller: 'body',
             trigger: ".page6",
-            start: "top 100%",
-            end: 'bottom 90%',
+            start: "top 115%",
+            end: 'bottom 113%',
+            markers:true,
             scrub:true
         },
         opacity: 0,
@@ -238,10 +224,10 @@ tl1.from('.main', {
     })
     .from(".page6-2", {
         scrollTrigger: {
-            scroller: 'body',
             trigger: ".page6",
-            start: "top 100%",
-            end: 'bottom 90%',
+            start: "top 115%",
+            end: 'bottom 113%',
+            markers:true,
             scrub:true
         },
         opacity: 0,
