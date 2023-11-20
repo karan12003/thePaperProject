@@ -32,7 +32,7 @@ tl1.from('.main', {
         scrollTrigger: {
             trigger: ".elems2",
             start: "top 75%",
-            end: "bottom 70%",markers:true,
+            end: "bottom 70%",
             scrub: true,
         },
         opacity: 1,
